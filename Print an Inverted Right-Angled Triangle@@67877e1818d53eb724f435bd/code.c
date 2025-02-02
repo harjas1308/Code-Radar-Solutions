@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
-int i,j,k;
+int i,j,k,l;
 scanf("%d",&k);
-for(i=1;i<=k;i++){
+l=k;
+for(i=1;i<=l;i++){
     for(j=k;j>=1;j--){
         printf("* ");
     }printf("\n");
