@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     char sign;
-    scanf("%d %d %c",&a,&b,&sign);
+    scanf("%f %f %c",&a,&b,&sign);
     // if(sign=='+'){
     // printf("%.0f",a+b);
     // }else if(sign=='-'){
@@ -16,16 +16,16 @@ int main(){
     // }
     switch(sign){
         case '+':
-        printf("%d",a+b);
+        printf("%.0f",a+b);
         break;
         case '-':
-        printf("%d",a-b);
+        printf("%.0f",a-b);
         break;
         case '*':
-        printf("%d",a*b);
+        printf("%.0f",a*b);
         break;
         case '/':
-        printf("%d",a/b);
+        printf("%.0f",a/b);
         break;
         default:
         printf("error");
