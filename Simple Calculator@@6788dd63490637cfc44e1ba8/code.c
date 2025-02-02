@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    float a,b;
+    int a,b;
     char sign;
     scanf("%f %f %c",&a,&b,&sign);
     // if(sign=='+'){
@@ -16,16 +16,16 @@ int main(){
     // }
     switch(sign){
         case '+':
-        printf("%.0f",a+b);
+        printf("%d",a+b);
         break;
         case '-':
-        printf("%.0f",a-b);
+        printf("%d",a-b);
         break;
         case '*':
-        printf("%.0f",a*b);
+        printf("%d",a*b);
         break;
         case '/':
-        printf("%.0f",a/b);
+        printf("%d",a/b);
         break;
         default:
         printf("error");
