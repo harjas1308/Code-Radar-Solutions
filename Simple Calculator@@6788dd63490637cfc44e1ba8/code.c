@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     char sign;
-    scanf("%f %f %c",&a,&b,&sign);
+    scanf("%d %d %c",&a,&b,&sign);
     // if(sign=='+'){
     // printf("%.0f",a+b);
     // }else if(sign=='-'){
