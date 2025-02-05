@@ -9,7 +9,7 @@ int main(){
         printf("%.0f",a-b);
     }else if(sign=='*'){
         printf("%.0f",a*b);
-    }else if(sign=='/'){
+    }else if(b!=0 && sign=='/'){
         printf("%.0f",a/b);
     }else if(b==0 && sign=='/'){
         printf("error");
