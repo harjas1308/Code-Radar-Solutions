@@ -4,10 +4,10 @@
 int main(){
     char a[20];
     scanf("%s",a);
-    a=tolower(a);
     int b=strlen(a),count=0;
     for(int i=0;i<b;i++){
-        if(a[i]=='a' || a[i]=='e' || a[i]=='i' || a[i]=='o' || a[i]=='u'){
+        char c=tolower(a[i]);
+        if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u'){
            count++;
         }else{
             continue;
