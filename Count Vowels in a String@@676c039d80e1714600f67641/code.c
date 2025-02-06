@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include<string.h>
+#include<ctype.h>
 int main(){
     char a[20];
     scanf("%s",a);
+    a=tolower(a);
     int b=strlen(a),count=0;
     for(int i=0;i<b;i++){
         if(a[i]=='a' || a[i]=='e' || a[i]=='i' || a[i]=='o' || a[i]=='u'){
