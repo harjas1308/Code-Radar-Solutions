@@ -4,15 +4,20 @@
 void check_lsb(int number) {
     // Check if the LSB is set or not using bitwise AND with 1
     if (number & 1) {
-        printf("The Least Significant Bit of %d is set (1).\n", number);
+        printf("Set\n");
     } else {
-        printf("The Least Significant Bit of %d is not set (0).\n", number);
+        printf("Not set\n");
     }
 }
 
 int main() {
-    int number = 13; // Example number
-    check_lsb(number); // Check LSB of the example number
+    int number;
+    
+    // Input the number from the user
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    check_lsb(number); // Check LSB of the input number
     
     return 0;
 }
