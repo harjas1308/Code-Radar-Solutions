@@ -7,12 +7,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&b);
-    for(int i=0;i<=b;i++){
-        arr[a-i]=arr[c];
-        c++;
-    }
-    for(int i=0;i<a;i++){
-        printf("%d\n",arr[i]);
+    for(int i=0;i<b;i++){
+        if(i==a-1){
+            arr[i]=arr[0];
+        }else{
+            arr[i]=arr[i+1];
+        }
     }
 return 0;
 }
