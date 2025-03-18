@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&b);
-    for(int i=1;i<=b;i++){
+    for(int i=0;i<=b;i++){
         arr[a-i]=arr[c];
         c++;
     }
