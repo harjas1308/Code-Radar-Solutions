@@ -30,7 +30,7 @@ int main(){
             count++;
         }
     }
-    if(count=0){
+    if(count==0){
         printf("Sorted");
     }else{
         printf("Not Sorted");
