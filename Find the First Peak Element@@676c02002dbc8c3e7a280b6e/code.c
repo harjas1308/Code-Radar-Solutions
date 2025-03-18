@@ -10,8 +10,11 @@ int main(){
         if(arr1[i]>arr1[i+1]){
             printf("%d",arr1[i]);
             break;
-        }else{
+        }else if(arr1[i]<arr1[i+1]){
             continue;
+        }else{
+            printf("%d",arr1[n-1]);
+            break;
         }
     }
     return 0;
