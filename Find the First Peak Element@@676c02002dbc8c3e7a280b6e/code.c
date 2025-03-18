@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<n-1;i++){
         if(arr1[i]>arr1[i+1]){
-            printf("%d",arr[i]);
+            printf("%d",arr1[i]);
             break;
         }else{
             continue;
