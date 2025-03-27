@@ -13,7 +13,7 @@ int main(){
         }
         // }else if(arr1[i]<arr1[i+1]){
         //     continue;
-        }else{
+        else{
             printf("%d",arr1[n-1]);
             break;
         }
