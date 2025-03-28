@@ -20,7 +20,7 @@ void maxelement(int arr[],int a){
             max=max;
         }
     }
-    printf("%d",max);
+    printf(" %d",max);
 }
 int main(){
     int a;
