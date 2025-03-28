@@ -15,7 +15,7 @@ void maxelement(int arr[],int a){
     int max=arr[0];
     for(int i=1;i<a;i++){
         if(max<arr[i]){
-            min=arr[i];
+            max=arr[i];
         }else{
             max=max;
         }
