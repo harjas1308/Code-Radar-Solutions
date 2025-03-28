@@ -29,7 +29,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    minelement(arr,a)
+    minelement(arr,a);
     maxelement(arr,a);
     return 0;
 }
