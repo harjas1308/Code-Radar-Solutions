@@ -1,5 +1,5 @@
 // Your code here...
-int selectionSort(int arr[],int n){
+int selectionSort(char arr[],int n){
     for(int i=0;i<n-1;i++){
         int minindex=i;
         for(int j=i+1;j<n;j++){
@@ -13,7 +13,7 @@ int selectionSort(int arr[],int n){
     }
     return 0;
 }
-printArray(int arr[],int n){
+printArray(char arr[],int n){
     for(int i=0;i<n;i++){
         printf("%c ",arr[i]);
     }
