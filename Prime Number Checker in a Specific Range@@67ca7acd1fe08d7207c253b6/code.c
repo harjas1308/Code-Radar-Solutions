@@ -11,7 +11,7 @@ int printPrimesInRange(int a,int b){
                 continue;
             }
         }
-        if(count!=2){
+        if(count==2){
             arr[i]=count;
         }
     }
