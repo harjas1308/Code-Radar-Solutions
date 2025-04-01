@@ -2,9 +2,9 @@
 #include<stdio.h>
 int printPrimesInRange(int a,int b){
     int i=1,c=b-a,arr[100];
-    for(;i<=c;i++){
+    for(int j=a;j<=b;j++){
         int count=0;
-        for(int j=a;j<=b;j++){
+        for(;i<=c;i++){
             if(j%i==0){
                 count++;
             }else{
